@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/PC/Documents/Learning/GD/external/raylib/src
+# Install script for directory: C:/Users/PC/Documents/Learning/Game/external/raylib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GD")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,34 +39,34 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/cmake_install.cmake")
+  include("C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/raylib.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/raylib.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "C:/Users/PC/Documents/Learning/GD/external/raylib/src/raylib.h"
-    "C:/Users/PC/Documents/Learning/GD/external/raylib/src/rcamera.h"
-    "C:/Users/PC/Documents/Learning/GD/external/raylib/src/rlgl.h"
-    "C:/Users/PC/Documents/Learning/GD/external/raylib/src/raymath.h"
+    "C:/Users/PC/Documents/Learning/Game/external/raylib/src/raylib.h"
+    "C:/Users/PC/Documents/Learning/Game/external/raylib/src/rcamera.h"
+    "C:/Users/PC/Documents/Learning/Game/external/raylib/src/rlgl.h"
+    "C:/Users/PC/Documents/Learning/Game/external/raylib/src/raymath.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/raylib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/raylib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/raylib-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/raylib-config-version.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES
-    "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/raylib-config-version.cmake"
-    "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/raylib-config.cmake"
+    "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/raylib-config-version.cmake"
+    "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/raylib-config.cmake"
     )
 endif()
 
@@ -74,7 +74,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib/raylib-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib/raylib-targets.cmake"
-         "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets.cmake")
+         "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib/raylib-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -87,15 +87,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/CMakeFiles/Export/3f9a69e8808e76b29b64bee1688b3b35/raylib-targets-release.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/install_local_manifest.txt"
+  file(WRITE "C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

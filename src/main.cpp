@@ -1,9 +1,9 @@
-#include "game.hpp"
+#include "hub.hpp"
 
 int main()
 {
-    Game game;
-    game.run();
+    Hub hub;
+    hub.run();
 
     return 0;
 }

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: GD
+# Project: Game
 # Configurations: Release
 # =============================================================================
 
@@ -39,68 +39,92 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/PC/Documents/Learning/GD/build/
+cmake_ninja_workdir = C$:/Users/PC/Documents/Learning/Game/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target GD
+# Object build statements for EXECUTABLE target Game
 
 
 #############################################
-# Order-only phony target for GD
+# Order-only phony target for Game
 
-build cmake_object_order_depends_target_GD: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
+build cmake_object_order_depends_target_Game: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/GD.dir/src/game.cpp.obj: CXX_COMPILER__GD_unscanned_Release C$:/Users/PC/Documents/Learning/GD/src/game.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/Game.dir/gd/game.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/gd/game.cpp || cmake_object_order_depends_target_Game
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\GD.dir\src\game.cpp.obj.d
+  DEP_FILE = CMakeFiles\Game.dir\gd\game.cpp.obj.d
   FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src
-  OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GD.dir\
-  TARGET_PDB = GD.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GD.dir
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir\gd
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
 
-build CMakeFiles/GD.dir/src/main.cpp.obj: CXX_COMPILER__GD_unscanned_Release C$:/Users/PC/Documents/Learning/GD/src/main.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/Game.dir/pong/game.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/pong/game.cpp || cmake_object_order_depends_target_Game
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\GD.dir\src\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Game.dir\pong\game.cpp.obj.d
   FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src
-  OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GD.dir\
-  TARGET_PDB = GD.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GD.dir
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir\pong
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
+
+build CMakeFiles/Game.dir/src/hub.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/src/hub.cpp || cmake_object_order_depends_target_Game
+  CONFIG = Release
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Game.dir\src\hub.cpp.obj.d
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
+
+build CMakeFiles/Game.dir/src/main.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/src/main.cpp || cmake_object_order_depends_target_Game
+  CONFIG = Release
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Game.dir\src\main.cpp.obj.d
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target GD
+# Link build statements for EXECUTABLE target Game
 
 
 #############################################
-# Link the executable GD.exe
+# Link the executable Game.exe
 
-build GD.exe: CXX_EXECUTABLE_LINKER__GD_Release CMakeFiles/GD.dir/src/game.cpp.obj CMakeFiles/GD.dir/src/main.cpp.obj | external/raylib/raylib/raylib.lib || external/raylib/raylib/external/glfw/src/glfw external/raylib/raylib/raylib.lib
+build Game.exe: CXX_EXECUTABLE_LINKER__Game_Release CMakeFiles/Game.dir/gd/game.cpp.obj CMakeFiles/Game.dir/pong/game.cpp.obj CMakeFiles/Game.dir/src/hub.cpp.obj CMakeFiles/Game.dir/src/main.cpp.obj | external/raylib/raylib/raylib.lib || external/raylib/raylib/external/glfw/src/glfw external/raylib/raylib/raylib.lib
   CONFIG = Release
   FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   LINK_FLAGS = -fuse-ld=lld -Xlinker /subsystem:console -fuse-ld=lld-link
   LINK_LIBRARIES = external/raylib/raylib/raylib.lib  -lopengl32.lib  -lglu32.lib  -lwinmm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
-  OBJECT_DIR = CMakeFiles\GD.dir
+  OBJECT_DIR = CMakeFiles\Game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\GD.dir\
-  TARGET_FILE = GD.exe
-  TARGET_IMPLIB = GD.lib
-  TARGET_PDB = GD.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GD.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_FILE = Game.exe
+  TARGET_IMPLIB = Game.lib
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
 
 
 #############################################
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -112,7 +136,7 @@ build package: phony CMakeFiles/package.util
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -124,7 +148,7 @@ build package_source: phony CMakeFiles/package_source.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -136,7 +160,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -154,7 +178,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -166,7 +190,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -178,7 +202,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -187,7 +211,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/PC/Documents/Learning/GD/CMakeLists.txt
+# C:/Users/PC/Documents/Learning/Game/CMakeLists.txt
 # =============================================================================
 
 
@@ -195,7 +219,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for package
 
 build external/raylib/CMakeFiles/package.util: CUSTOM_COMMAND external/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -207,7 +231,7 @@ build external/raylib/package: phony external/raylib/CMakeFiles/package.util
 # Utility command for package_source
 
 build external/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -219,7 +243,7 @@ build external/raylib/package_source: phony external/raylib/CMakeFiles/package_s
 # Utility command for edit_cache
 
 build external/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -231,7 +255,7 @@ build external/raylib/edit_cache: phony external/raylib/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build external/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -249,7 +273,7 @@ build external/raylib/list_install_components: phony
 # Utility command for install
 
 build external/raylib/CMakeFiles/install.util: CUSTOM_COMMAND external/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -261,7 +285,7 @@ build external/raylib/install: phony external/raylib/CMakeFiles/install.util
 # Utility command for install/local
 
 build external/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND external/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -273,7 +297,7 @@ build external/raylib/install/local: phony external/raylib/CMakeFiles/install/lo
 # Utility command for install/strip
 
 build external/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -282,7 +306,7 @@ build external/raylib/install/strip: phony external/raylib/CMakeFiles/install/st
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/PC/Documents/Learning/GD/external/raylib/CMakeLists.txt
+# C:/Users/PC/Documents/Learning/Game/external/raylib/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -294,72 +318,72 @@ build external/raylib/install/strip: phony external/raylib/CMakeFiles/install/st
 
 build cmake_object_order_depends_target_raylib: phony || cmake_object_order_depends_target_glfw
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/rcore.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/rcore.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rcore.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = external\raylib\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/rshapes.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/rshapes.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rshapes.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = external\raylib\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/rtext.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/rtext.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rtext.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = external\raylib\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/rtextures.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/rtextures.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rtextures.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = external\raylib\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/raudio.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/raudio.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\raudio.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_PDB = external\raylib\raylib\raylib.pdb
   TARGET_SUPPORT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
 
-build external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/rmodels.c || cmake_object_order_depends_target_raylib
+build external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__raylib_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/rmodels.c || cmake_object_order_depends_target_raylib
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rmodels.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src -isystem C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\CMakeFiles\raylib.dir\raylib.pdb
@@ -390,7 +414,7 @@ build external/raylib/raylib/raylib.lib: C_STATIC_LIBRARY_LINKER__raylib_Release
 # Utility command for package
 
 build external/raylib/raylib/CMakeFiles/package.util: CUSTOM_COMMAND external/raylib/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -402,7 +426,7 @@ build external/raylib/raylib/package: phony external/raylib/raylib/CMakeFiles/pa
 # Utility command for package_source
 
 build external/raylib/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -414,7 +438,7 @@ build external/raylib/raylib/package_source: phony external/raylib/raylib/CMakeF
 # Utility command for edit_cache
 
 build external/raylib/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -426,7 +450,7 @@ build external/raylib/raylib/edit_cache: phony external/raylib/raylib/CMakeFiles
 # Utility command for rebuild_cache
 
 build external/raylib/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -444,7 +468,7 @@ build external/raylib/raylib/list_install_components: phony
 # Utility command for install
 
 build external/raylib/raylib/CMakeFiles/install.util: CUSTOM_COMMAND external/raylib/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -456,7 +480,7 @@ build external/raylib/raylib/install: phony external/raylib/raylib/CMakeFiles/in
 # Utility command for install/local
 
 build external/raylib/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND external/raylib/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -468,7 +492,7 @@ build external/raylib/raylib/install/local: phony external/raylib/raylib/CMakeFi
 # Utility command for install/strip
 
 build external/raylib/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/raylib/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -477,7 +501,7 @@ build external/raylib/raylib/install/strip: phony external/raylib/raylib/CMakeFi
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/PC/Documents/Learning/GD/external/raylib/cmake/GlfwImport.cmake
+# C:/Users/PC/Documents/Learning/Game/external/raylib/cmake/GlfwImport.cmake
 # =============================================================================
 
 
@@ -485,7 +509,7 @@ build external/raylib/raylib/install/strip: phony external/raylib/raylib/CMakeFi
 # Utility command for package
 
 build external/raylib/raylib/external/glfw/CMakeFiles/package.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -497,7 +521,7 @@ build external/raylib/raylib/external/glfw/package: phony external/raylib/raylib
 # Utility command for package_source
 
 build external/raylib/raylib/external/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -509,7 +533,7 @@ build external/raylib/raylib/external/glfw/package_source: phony external/raylib
 # Utility command for edit_cache
 
 build external/raylib/raylib/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -521,7 +545,7 @@ build external/raylib/raylib/external/glfw/edit_cache: phony external/raylib/ray
 # Utility command for rebuild_cache
 
 build external/raylib/raylib/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -539,7 +563,7 @@ build external/raylib/raylib/external/glfw/list_install_components: phony
 # Utility command for install
 
 build external/raylib/raylib/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -551,7 +575,7 @@ build external/raylib/raylib/external/glfw/install: phony external/raylib/raylib
 # Utility command for install/local
 
 build external/raylib/raylib/external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -563,7 +587,7 @@ build external/raylib/raylib/external/glfw/install/local: phony external/raylib/
 # Utility command for install/strip
 
 build external/raylib/raylib/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -572,7 +596,7 @@ build external/raylib/raylib/external/glfw/install/strip: phony external/raylib/
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMakeLists.txt
+# C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -584,252 +608,252 @@ build external/raylib/raylib/external/glfw/install/strip: phony external/raylib/
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
-  INCLUDES = -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -854,7 +878,7 @@ build external/raylib/raylib/external/glfw/src/update_mappings: phony external/r
 # Utility command for package
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -866,7 +890,7 @@ build external/raylib/raylib/external/glfw/src/package: phony external/raylib/ra
 # Utility command for package_source
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -878,7 +902,7 @@ build external/raylib/raylib/external/glfw/src/package_source: phony external/ra
 # Utility command for edit_cache
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -890,7 +914,7 @@ build external/raylib/raylib/external/glfw/src/edit_cache: phony external/raylib
 # Utility command for rebuild_cache
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\GD -BC:\Users\PC\Documents\Learning\GD\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -908,7 +932,7 @@ build external/raylib/raylib/external/glfw/src/list_install_components: phony
 # Utility command for install
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -920,7 +944,7 @@ build external/raylib/raylib/external/glfw/src/install: phony external/raylib/ra
 # Utility command for install/local
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -932,7 +956,7 @@ build external/raylib/raylib/external/glfw/src/install/local: phony external/ray
 # Utility command for install/strip
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND external/raylib/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\build\external\raylib\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -944,13 +968,13 @@ build external/raylib/raylib/external/glfw/src/install/strip: phony external/ray
 # Custom command for external\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings
 
 build external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\GD\external\raylib\src\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\Learning\Game\external\raylib\src\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Target aliases.
 
-build GD: phony GD.exe
+build Game: phony Game.exe
 
 build glfw: phony external/raylib/raylib/external/glfw/src/glfw
 
@@ -966,35 +990,35 @@ build update_mappings: phony external/raylib/raylib/external/glfw/src/update_map
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Documents/Learning/GD/build
+# Folder: C:/Users/PC/Documents/Learning/Game/build
 
-build all: phony GD.exe external/raylib/all
+build all: phony Game.exe external/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Documents/Learning/GD/build/external/raylib
+# Folder: C:/Users/PC/Documents/Learning/Game/build/external/raylib
 
 build external/raylib/all: phony external/raylib/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib
+# Folder: C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib
 
 build external/raylib/raylib/all: phony external/raylib/raylib/raylib.lib external/raylib/raylib/external/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw
+# Folder: C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw
 
 build external/raylib/raylib/external/glfw/all: phony external/raylib/raylib/external/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src
+# Folder: C:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
 
 build external/raylib/raylib/external/glfw/src/all: phony external/raylib/raylib/external/glfw/src/glfw
 
@@ -1005,13 +1029,13 @@ build external/raylib/raylib/external/glfw/src/all: phony external/raylib/raylib
 #############################################
 # Phony target to force glob verification run.
 
-build C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/VerifyGlobs.cmake_force: phony
+build C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/VerifyGlobs.cmake_force
+build C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -1019,14 +1043,14 @@ build C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/cmake.verify_globs: VE
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/PC/Documents/Learning/GD/build/cmake_install.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/cmake_install.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/cmake_install.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/cmake_install.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/external/glfw/src/cmake_install.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/CTestTestfile.cmake C$:/Users/PC/Documents/Learning/GD/build/external/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/cmake.verify_globs | C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in C$:/Users/PC/Documents/Learning/GD/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/CMakeOptions.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/CompileDefinitions.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/CompilerFlags.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/EnumOption.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/GlfwImport.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/InstallConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/JoinPaths.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/LibraryConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/PackConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/ParseConfigHeader.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/raylib-config-version.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/raylib-config.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/raylib.pc.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeCXXCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake
+build build.ninja C$:/Users/PC/Documents/Learning/Game/build/cmake_install.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/cmake_install.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/cmake_install.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/cmake_install.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src/cmake_install.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/CTestTestfile.cmake C$:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/cmake.verify_globs | C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in C$:/Users/PC/Documents/Learning/Game/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/CMakeOptions.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/CompileDefinitions.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/CompilerFlags.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/EnumOption.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/GlfwImport.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/InstallConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/JoinPaths.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/LibraryConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/PackConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/ParseConfigHeader.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/raylib-config-version.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/raylib-config.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/raylib.pc.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeCXXCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/PC/Documents/Learning/GD/build/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in C$:/Users/PC/Documents/Learning/GD/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/CMakeOptions.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/CompileDefinitions.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/CompilerFlags.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/EnumOption.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/GlfwImport.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/InstallConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/JoinPaths.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/LibraryConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/PackConfigurations.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/ParseConfigHeader.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/raylib-config-version.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/cmake/raylib-config.cmake C$:/Users/PC/Documents/Learning/GD/external/raylib/raylib.pc.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMakeLists.txt C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/PC/Documents/Learning/GD/external/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeCXXCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake: phony
+build C$:/Users/PC/Documents/Learning/Game/build/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in C$:/Users/PC/Documents/Learning/Game/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/CMakeOptions.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/CompileDefinitions.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/CompilerFlags.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/EnumOption.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/GlfwImport.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/InstallConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/JoinPaths.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/LibraryConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/PackConfigurations.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/ParseConfigHeader.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/raylib-config-version.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/cmake/raylib-config.cmake C$:/Users/PC/Documents/Learning/Game/external/raylib/raylib.pc.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMakeLists.txt C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeCXXCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake: phony
 
 
 #############################################
