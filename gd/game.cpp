@@ -1,5 +1,6 @@
 #include "game.hpp"
 #include <raylib.h>
+#include "levels/stereomadness.hpp"
 
 enum class GameState
 {
@@ -24,6 +25,7 @@ void GdGame::run()
     Texture2D logo = LoadTexture("../assets/logo.png");
     Texture2D backButton = LoadTexture("../assets/backbutton.png");
     Texture2D cube = LoadTexture("../assets/cube.png");
+    Texture2D spike = LoadTexture("../assets/spike.png");
 
     GameState state = GameState::MENU;
     int currentLevel = -1;
@@ -35,7 +37,6 @@ void GdGame::run()
         {"EVERY END",      {0, 0, 300, 80}},
         {"ICE CREAM",      {0, 0, 300, 80}}
     };
-
     constexpr int levelCount = sizeof(levels) / sizeof(levels[0]);
 
     const float groundY = 1000.0f;
@@ -52,16 +53,9 @@ void GdGame::run()
     bool onGround = true;
 
     float levelOffset = 0.0f;
-    const float scrollSpeed = 5.0f;
+    const float scrollSpeed = 12.0f;
 
-    Rectangle spikes[] =
-    {
-        {800, groundY - 100, 100, 100},
-        {920, groundY - 100, 100, 100},
-        {1040, groundY - 100, 100, 100}
-    };
-
-    constexpr int spikeCount = sizeof(spikes) / sizeof(spikes[0]);
+    spikeCount;
 
     while (!WindowShouldClose())
     {
@@ -111,7 +105,7 @@ void GdGame::run()
                 {
                     currentLevel = i;
 
-                    player.x = 150.0f;
+                    player.x = 400.0f;
                     player.y = groundY - player.height;
 
                     velocityY = 0.0f;
@@ -134,7 +128,7 @@ void GdGame::run()
             {
                 if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) && onGround)
                 {
-                    velocityY = -30.0f;
+                    velocityY = -25.0f;
                     onGround = false;
                 }
 
@@ -274,15 +268,33 @@ void GdGame::run()
                 {
                     float spikeX = spikes[i].x - levelOffset;
 
-                    DrawTriangle(
-                        {spikeX, groundY},
-                        {spikeX + 20, groundY - 40},
-                        {spikeX + 40, groundY},
-                        RED
+                    float drawWidth  = spikes[i].width * 2.0f;
+                    float drawHeight = spikes[i].height * 2.0f;
+
+                    DrawTexturePro(
+                        spike,
+                        {0, 0, (float)spike.width, (float)spike.height},
+                        {
+                            spikeX - (drawWidth - spikes[i].width) / 2.0f,
+                            spikes[i].y - (drawHeight - spikes[i].height),
+                            drawWidth,
+                            drawHeight
+                        },
+                        {0, 0},
+                        0,
+                        WHITE
                     );
-                }
+
+                    DrawRectangleLines(
+                        spikeX,
+                        spikes[i].y,
+                        spikes[i].width,
+                        spikes[i].height,
+                        YELLOW
+                    );
+                };
             }
-            else
+        else
             {
                 DrawText(
                     levels[currentLevel].name,
@@ -292,7 +304,7 @@ void GdGame::run()
                     WHITE
                 );
             }
-        }
+        };
 
         EndDrawing();
     }

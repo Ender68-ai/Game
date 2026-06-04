@@ -5,6 +5,7 @@
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/PC/Documents/Learning/Game/gd/*.cpp")
 set(OLD_GLOB
   "C:/Users/PC/Documents/Learning/Game/gd/game.cpp"
+  "C:/Users/PC/Documents/Learning/Game/gd/levels/stereomadness.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

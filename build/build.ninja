@@ -61,6 +61,18 @@ build CMakeFiles/Game.dir/gd/game.cpp.obj: CXX_COMPILER__Game_unscanned_Release 
   TARGET_PDB = Game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
 
+build CMakeFiles/Game.dir/gd/levels/stereomadness.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/gd/levels/stereomadness.cpp || cmake_object_order_depends_target_Game
+  CONFIG = Release
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Game.dir\gd\levels\stereomadness.cpp.obj.d
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
+  OBJECT_DIR = CMakeFiles\Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Game.dir\gd\levels
+  TARGET_COMPILE_PDB = CMakeFiles\Game.dir\
+  TARGET_PDB = Game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Game.dir
+
 build CMakeFiles/Game.dir/pong/game.cpp.obj: CXX_COMPILER__Game_unscanned_Release C$:/Users/PC/Documents/Learning/Game/pong/game.cpp || cmake_object_order_depends_target_Game
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
@@ -105,7 +117,7 @@ build CMakeFiles/Game.dir/src/main.cpp.obj: CXX_COMPILER__Game_unscanned_Release
 #############################################
 # Link the executable Game.exe
 
-build Game.exe: CXX_EXECUTABLE_LINKER__Game_Release CMakeFiles/Game.dir/gd/game.cpp.obj CMakeFiles/Game.dir/pong/game.cpp.obj CMakeFiles/Game.dir/src/hub.cpp.obj CMakeFiles/Game.dir/src/main.cpp.obj | external/raylib/raylib/raylib.lib || external/raylib/raylib/external/glfw/src/glfw external/raylib/raylib/raylib.lib
+build Game.exe: CXX_EXECUTABLE_LINKER__Game_Release CMakeFiles/Game.dir/gd/game.cpp.obj CMakeFiles/Game.dir/gd/levels/stereomadness.cpp.obj CMakeFiles/Game.dir/pong/game.cpp.obj CMakeFiles/Game.dir/src/hub.cpp.obj CMakeFiles/Game.dir/src/main.cpp.obj | external/raylib/raylib/raylib.lib || external/raylib/raylib/external/glfw/src/glfw external/raylib/raylib/raylib.lib
   CONFIG = Release
   FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   LINK_FLAGS = -fuse-ld=lld -Xlinker /subsystem:console -fuse-ld=lld-link

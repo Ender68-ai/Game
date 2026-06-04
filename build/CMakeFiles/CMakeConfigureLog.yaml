@@ -4197,8 +4197,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovgtk5"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovgtk5"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-o0be9w"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-o0be9w"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -4210,16 +4210,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovgtk5'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-o0be9w'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_620bd
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_620bd.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_620bd.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_620bd.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_620bd.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_620bd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_620bd.lib -Xlinker /pdb:cmTC_620bd.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_b3689
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b3689.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_b3689.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_b3689.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_b3689.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b3689.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b3689.lib -Xlinker /pdb:cmTC_b3689.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_620bd.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_620bd.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_620bd.lib /pdb:cmTC_620bd.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_b3689.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_b3689.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_b3689.lib /pdb:cmTC_b3689.pdb /version:0.0
         
       exitCode: 0
   -
@@ -4283,8 +4283,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-99v7di"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-99v7di"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-916sf2"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-916sf2"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -4295,11 +4295,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-99v7di'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-916sf2'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_a74c7
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_a74c7.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_a74c7.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_a74c7.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-99v7di/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a74c7.dir/feature_tests.cxx.obj -o cmTC_a74c7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a74c7.lib -Xlinker /pdb:cmTC_a74c7.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_de0d3
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_de0d3.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_de0d3.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_de0d3.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-916sf2/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_de0d3.dir/feature_tests.cxx.obj -o cmTC_de0d3.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_de0d3.lib -Xlinker /pdb:cmTC_de0d3.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -4314,8 +4314,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-tr1fmk"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-tr1fmk"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-d57gvu"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-d57gvu"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -4326,11 +4326,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-tr1fmk'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-d57gvu'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_3796e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_3796e.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_3796e.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_3796e.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-tr1fmk/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3796e.dir/feature_tests.cxx.obj -o cmTC_3796e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3796e.lib -Xlinker /pdb:cmTC_3796e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_a5169
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_a5169.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_a5169.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_a5169.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-d57gvu/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a5169.dir/feature_tests.cxx.obj -o cmTC_a5169.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a5169.lib -Xlinker /pdb:cmTC_a5169.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -6653,8 +6653,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-h95vdd"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-h95vdd"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-kq8byy"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-kq8byy"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6665,16 +6665,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-h95vdd'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-kq8byy'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_24561
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_24561.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_24561.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_24561.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_24561.dir/CMakeCCompilerABI.c.obj -o cmTC_24561.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_24561.lib -Xlinker /pdb:cmTC_24561.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_14966
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_14966.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_14966.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_14966.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_14966.dir/CMakeCCompilerABI.c.obj -o cmTC_14966.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_14966.lib -Xlinker /pdb:cmTC_14966.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_24561.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_24561.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_24561.lib /pdb:cmTC_24561.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_14966.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_14966.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_14966.lib /pdb:cmTC_14966.pdb /version:0.0
         
       exitCode: 0
   -
@@ -6738,8 +6738,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-rhwk7z"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-rhwk7z"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-2j0puf"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-2j0puf"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6751,11 +6751,11 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-rhwk7z'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-2j0puf'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_7e6b8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_7e6b8.dir/src.c.obj -MF CMakeFiles\\cmTC_7e6b8.dir\\src.c.obj.d -o CMakeFiles/cmTC_7e6b8.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-rhwk7z/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_7e6b8.dir/src.c.obj -o cmTC_7e6b8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7e6b8.lib -Xlinker /pdb:cmTC_7e6b8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_7e8c4
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_7e8c4.dir/src.c.obj -MF CMakeFiles\\cmTC_7e8c4.dir\\src.c.obj.d -o CMakeFiles/cmTC_7e8c4.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-2j0puf/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_7e8c4.dir/src.c.obj -o cmTC_7e8c4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7e8c4.lib -Xlinker /pdb:cmTC_7e8c4.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -6769,8 +6769,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6782,13 +6782,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_fde3c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fde3c.dir/src.c.obj -MF CMakeFiles\\cmTC_fde3c.dir\\src.c.obj.d -o CMakeFiles/cmTC_fde3c.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm/src.c
-        FAILED: [code=1] CMakeFiles/cmTC_fde3c.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fde3c.dir/src.c.obj -MF CMakeFiles\\cmTC_fde3c.dir\\src.c.obj.d -o CMakeFiles/cmTC_fde3c.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm/src.c
-        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wbi6tm/src.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_f6374
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f6374.dir/src.c.obj -MF CMakeFiles\\cmTC_f6374.dir\\src.c.obj.d -o CMakeFiles/cmTC_f6374.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_f6374.dir/src.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f6374.dir/src.c.obj -MF CMakeFiles\\cmTC_f6374.dir\\src.c.obj.d -o CMakeFiles/cmTC_f6374.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj/src.c
+        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ygrphj/src.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -6805,8 +6805,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-0x81em"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-0x81em"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ahqzz9"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ahqzz9"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6818,13 +6818,13 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-0x81em'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ahqzz9'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_ac25d
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ac25d.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_ac25d.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_ac25d.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-0x81em/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_ac25d.dir/CheckFunctionExists.c.obj -o cmTC_ac25d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ac25d.lib -Xlinker /pdb:cmTC_ac25d.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_ac25d.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_ac25d.dir/CheckFunctionExists.c.obj -o cmTC_ac25d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ac25d.lib -Xlinker /pdb:cmTC_ac25d.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_bc82b
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bc82b.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_bc82b.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_bc82b.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ahqzz9/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bc82b.dir/CheckFunctionExists.c.obj -o cmTC_bc82b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bc82b.lib -Xlinker /pdb:cmTC_bc82b.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_bc82b.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bc82b.dir/CheckFunctionExists.c.obj -o cmTC_bc82b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bc82b.lib -Xlinker /pdb:cmTC_bc82b.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthreads.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -6840,8 +6840,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-q9f2un"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-q9f2un"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-a6k3s5"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-a6k3s5"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6853,13 +6853,13 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-q9f2un'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-a6k3s5'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_83862
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_83862.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_83862.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_83862.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-q9f2un/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_83862.dir/CheckFunctionExists.c.obj -o cmTC_83862.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_83862.lib -Xlinker /pdb:cmTC_83862.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_83862.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_83862.dir/CheckFunctionExists.c.obj -o cmTC_83862.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_83862.lib -Xlinker /pdb:cmTC_83862.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_0b309
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0b309.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_0b309.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_0b309.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-a6k3s5/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_0b309.dir/CheckFunctionExists.c.obj -o cmTC_0b309.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0b309.lib -Xlinker /pdb:cmTC_0b309.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_0b309.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_0b309.dir/CheckFunctionExists.c.obj -o cmTC_0b309.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0b309.lib -Xlinker /pdb:cmTC_0b309.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthread.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -6874,8 +6874,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6887,13 +6887,13 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_d72c7
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d72c7.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_d72c7.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_d72c7.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm/CheckForPthreads.c
-        FAILED: [code=1] CMakeFiles/cmTC_d72c7.dir/CheckForPthreads.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d72c7.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_d72c7.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_d72c7.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm/CheckForPthreads.c
-        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-efo4hm/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_6bb48
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6bb48.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_6bb48.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_6bb48.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7/CheckForPthreads.c
+        FAILED: [code=1] CMakeFiles/cmTC_6bb48.dir/CheckForPthreads.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6bb48.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_6bb48.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_6bb48.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7/CheckForPthreads.c
+        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-zuhjc7/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
