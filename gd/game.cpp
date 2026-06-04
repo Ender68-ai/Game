@@ -1,5 +1,5 @@
 #include "game.hpp"
-#include <raylib.h>
+#include "../external/raylib/src/raylib.h"
 #include "levels/stereomadness.hpp"
 
 enum class GameState
@@ -32,11 +32,8 @@ void GdGame::run()
 
     Level levels[] =
     {
-        {"STEREO MADNESS", {0, 0, 300, 80}},
-        {"THE NIGHTMARE",  {0, 0, 300, 80}},
-        {"EVERY END",      {0, 0, 300, 80}},
-        {"ICE CREAM",      {0, 0, 300, 80}}
-    };
+        {"STEREO MADNESS", {0, 0, 300, 80}
+    }};
     constexpr int levelCount = sizeof(levels) / sizeof(levels[0]);
 
     const float groundY = 1000.0f;
@@ -54,8 +51,6 @@ void GdGame::run()
 
     float levelOffset = 0.0f;
     const float scrollSpeed = 12.0f;
-
-    spikeCount;
 
     while (!WindowShouldClose())
     {
@@ -144,6 +139,7 @@ void GdGame::run()
 
                 levelOffset += scrollSpeed;
 
+                // SPIKES
                 for (int i = 0; i < spikeCount; i++)
                 {
                     Rectangle spikeRect =
@@ -161,6 +157,52 @@ void GdGame::run()
                         onGround = true;
                         levelOffset = 0.0f;
                     }
+
+                    DrawTexturePro(
+                        spike,
+                        {0, 0, (float)spike.width, (float)spike.height},
+                        {
+                            spikeRect.x,
+                            spikeRect.y,
+                            spikeRect.width,
+                            spikeRect.height
+                        },
+                        {0, 0},
+                        0,
+                        WHITE
+                    );
+                }
+
+                // BLOCKS
+                for (int i = 0; i < blockCount; i++)
+                {
+                    Rectangle blockRect =
+                    {
+                        blocks[i].x - levelOffset,
+                        blocks[i].y,
+                        blocks[i].width,
+                        blocks[i].height
+                    };
+
+                    DrawRectangleRec(blockRect, GRAY);
+                    DrawRectangleRec(blockRect, Fade(RED, 0.3f));
+
+
+
+                    Rectangle endRec =
+                    {
+                        endRect.x - levelOffset,
+                        endRect.y,
+                        endRect.width,
+                        endRect.height
+                    };
+
+                    if (CheckCollisionRecs(player, endRec))
+                    {
+                        state = GameState::LEVEL_SELECT;
+                    }
+                                
+
                 }
             }
         }
@@ -292,9 +334,9 @@ void GdGame::run()
                         spikes[i].height,
                         YELLOW
                     );
-                };
+                }
             }
-        else
+            else
             {
                 DrawText(
                     levels[currentLevel].name,
@@ -304,7 +346,7 @@ void GdGame::run()
                     WHITE
                 );
             }
-        };
+        }
 
         EndDrawing();
     }
