@@ -4973,8 +4973,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8pbvb6"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8pbvb6"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-9tffwn"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-9tffwn"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -4986,16 +4986,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8pbvb6'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-9tffwn'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3c46c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3c46c.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_3c46c.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_3c46c.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3c46c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3c46c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3c46c.lib -Xlinker /pdb:cmTC_3c46c.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f366a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f366a.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_f366a.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_f366a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_f366a.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f366a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f366a.lib -Xlinker /pdb:cmTC_f366a.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_3c46c.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_3c46c.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_3c46c.lib /pdb:cmTC_3c46c.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_f366a.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_f366a.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_f366a.lib /pdb:cmTC_f366a.pdb /version:0.0
         
       exitCode: 0
   -
@@ -5059,8 +5059,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ita7se"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ita7se"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-5v8hk7"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-5v8hk7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -5071,11 +5071,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ita7se'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-5v8hk7'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e194c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_e194c.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_e194c.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_e194c.dir/feature_tests.cxx.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ita7se/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_e194c.dir/feature_tests.cxx.obj -o cmTC_e194c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e194c.lib -Xlinker /pdb:cmTC_e194c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2b3f1
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2b3f1.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_2b3f1.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2b3f1.dir/feature_tests.cxx.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-5v8hk7/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_2b3f1.dir/feature_tests.cxx.obj -o cmTC_2b3f1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2b3f1.lib -Xlinker /pdb:cmTC_2b3f1.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -5090,8 +5090,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0qw8n7"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0qw8n7"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-qopgnp"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-qopgnp"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto"
@@ -5102,11 +5102,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0qw8n7'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-qopgnp'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d0cbb
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_d0cbb.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_d0cbb.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_d0cbb.dir/feature_tests.cxx.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0qw8n7/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_d0cbb.dir/feature_tests.cxx.obj -o cmTC_d0cbb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d0cbb.lib -Xlinker /pdb:cmTC_d0cbb.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4de34
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_4de34.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_4de34.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_4de34.dir/feature_tests.cxx.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-qopgnp/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_4de34.dir/feature_tests.cxx.obj -o cmTC_4de34.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4de34.lib -Xlinker /pdb:cmTC_4de34.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -7791,8 +7791,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-hods0u"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-hods0u"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-07vvse"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-07vvse"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7803,16 +7803,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-hods0u'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-07vvse'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_cc13f
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cc13f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_cc13f.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_cc13f.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_cc13f.dir/CMakeCCompilerABI.c.obj -o cmTC_cc13f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cc13f.lib -Xlinker /pdb:cmTC_cc13f.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_34ae6
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_34ae6.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_34ae6.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_34ae6.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_34ae6.dir/CMakeCCompilerABI.c.obj -o cmTC_34ae6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_34ae6.lib -Xlinker /pdb:cmTC_34ae6.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_cc13f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_cc13f.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_cc13f.lib /pdb:cmTC_cc13f.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_34ae6.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.51.36231\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_34ae6.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_34ae6.lib /pdb:cmTC_34ae6.pdb /version:0.0
         
       exitCode: 0
   -
@@ -7876,8 +7876,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-bdufue"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-bdufue"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0or3zt"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0or3zt"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7889,11 +7889,11 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-bdufue'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0or3zt'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b8c2e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_b8c2e.dir/src.c.obj -MF CMakeFiles\\cmTC_b8c2e.dir\\src.c.obj.d -o CMakeFiles/cmTC_b8c2e.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-bdufue/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_b8c2e.dir/src.c.obj -o cmTC_b8c2e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b8c2e.lib -Xlinker /pdb:cmTC_b8c2e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_591cb
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_591cb.dir/src.c.obj -MF CMakeFiles\\cmTC_591cb.dir\\src.c.obj.d -o CMakeFiles/cmTC_591cb.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0or3zt/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_591cb.dir/src.c.obj -o cmTC_591cb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_591cb.lib -Xlinker /pdb:cmTC_591cb.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -7907,8 +7907,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7920,13 +7920,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_20aa1
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_20aa1.dir/src.c.obj -MF CMakeFiles\\cmTC_20aa1.dir\\src.c.obj.d -o CMakeFiles/cmTC_20aa1.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb/src.c
-        FAILED: [code=1] CMakeFiles/cmTC_20aa1.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_20aa1.dir/src.c.obj -MF CMakeFiles\\cmTC_20aa1.dir\\src.c.obj.d -o CMakeFiles/cmTC_20aa1.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb/src.c
-        C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-fikxzb/src.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_03a03
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_03a03.dir/src.c.obj -MF CMakeFiles\\cmTC_03a03.dir\\src.c.obj.d -o CMakeFiles/cmTC_03a03.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_03a03.dir/src.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_03a03.dir/src.c.obj -MF CMakeFiles\\cmTC_03a03.dir\\src.c.obj.d -o CMakeFiles/cmTC_03a03.dir/src.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod/src.c
+        C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-ww6xod/src.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7943,8 +7943,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0sxsty"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0sxsty"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-p2zz93"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-p2zz93"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7956,13 +7956,13 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0sxsty'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-p2zz93'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_20b81
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_20b81.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_20b81.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_20b81.dir/CheckFunctionExists.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-0sxsty/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_20b81.dir/CheckFunctionExists.c.obj -o cmTC_20b81.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_20b81.lib -Xlinker /pdb:cmTC_20b81.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_20b81.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_20b81.dir/CheckFunctionExists.c.obj -o cmTC_20b81.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_20b81.lib -Xlinker /pdb:cmTC_20b81.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a075d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a075d.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_a075d.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_a075d.dir/CheckFunctionExists.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-p2zz93/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a075d.dir/CheckFunctionExists.c.obj -o cmTC_a075d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a075d.lib -Xlinker /pdb:cmTC_a075d.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_a075d.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_a075d.dir/CheckFunctionExists.c.obj -o cmTC_a075d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a075d.lib -Xlinker /pdb:cmTC_a075d.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthreads.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -7978,8 +7978,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-kxj447"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-kxj447"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-g6kb8z"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-g6kb8z"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7991,13 +7991,13 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-kxj447'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-g6kb8z'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_98fc8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_98fc8.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_98fc8.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_98fc8.dir/CheckFunctionExists.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-kxj447/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_98fc8.dir/CheckFunctionExists.c.obj -o cmTC_98fc8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_98fc8.lib -Xlinker /pdb:cmTC_98fc8.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_98fc8.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_98fc8.dir/CheckFunctionExists.c.obj -o cmTC_98fc8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_98fc8.lib -Xlinker /pdb:cmTC_98fc8.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_af37c
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_af37c.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_af37c.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_af37c.dir/CheckFunctionExists.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-g6kb8z/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_af37c.dir/CheckFunctionExists.c.obj -o cmTC_af37c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_af37c.lib -Xlinker /pdb:cmTC_af37c.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_af37c.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_af37c.dir/CheckFunctionExists.c.obj -o cmTC_af37c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_af37c.lib -Xlinker /pdb:cmTC_af37c.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthread.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -8012,8 +8012,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6"
-      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6"
+      source: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0"
+      binary: "C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -8025,13 +8025,13 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6'
+        Change Dir: 'C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e7160
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e7160.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_e7160.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_e7160.dir/CheckForPthreads.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6/CheckForPthreads.c
-        FAILED: [code=1] CMakeFiles/cmTC_e7160.dir/CheckForPthreads.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e7160.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_e7160.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_e7160.dir/CheckForPthreads.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6/CheckForPthreads.c
-        C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-f180j6/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_30b98
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_30b98.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_30b98.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_30b98.dir/CheckForPthreads.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0/CheckForPthreads.c
+        FAILED: [code=1] CMakeFiles/cmTC_30b98.dir/CheckForPthreads.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_30b98.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_30b98.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_30b98.dir/CheckForPthreads.c.obj -c C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0/CheckForPthreads.c
+        C:/Users/aleja/Documents/Tecnologia/Game/build/CMakeFiles/CMakeScratch/TryCompile-8j3sh0/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.

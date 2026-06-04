@@ -2,6 +2,8 @@
 #include "../external/raylib/src/raylib.h"
 #include "levels/stereomadness.hpp"
 
+// Remember to fix the damn blocks
+
 enum class GameState
 {
     MENU,
