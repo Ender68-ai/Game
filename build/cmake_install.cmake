@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/aleja/Documents/Tecnologia/Game
+# Install script for directory: C:/Users/PC/Documents/Learning/Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/aleja/Documents/Tecnologia/Game/build/external/raylib/cmake_install.cmake")
+  include("C:/Users/PC/Documents/Learning/Game/build/external/raylib/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/aleja/Documents/Tecnologia/Game/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/PC/Documents/Learning/Game/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/aleja/Documents/Tecnologia/Game/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/PC/Documents/Learning/Game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

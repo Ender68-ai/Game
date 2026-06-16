@@ -1,8 +1,9 @@
 #include "game.hpp"
 #include "../external/raylib/src/raylib.h"
-#include "levels/stereomadness.hpp"
+#include "levels/logic.hpp"
+#include "levels/everyend.hpp"
 
-// Remember to fix the damn blocks
+// Remember to fix the damn blocks - Fixed top landing!
 
 enum class GameState
 {
@@ -28,14 +29,16 @@ void GdGame::run()
     Texture2D backButton = LoadTexture("../assets/backbutton.png");
     Texture2D cube = LoadTexture("../assets/cube.png");
     Texture2D spike = LoadTexture("../assets/spike.png");
+    Texture2D block = LoadTexture("../assets/block.png");
 
     GameState state = GameState::MENU;
     int currentLevel = -1;
 
     Level levels[] =
     {
-        {"STEREO MADNESS", {0, 0, 300, 80}
-    }};
+        {"Stereo Madness", {0, 0, 300, 80}},
+        {"Every End", {0, 0, 300, 80}}
+    };
     constexpr int levelCount = sizeof(levels) / sizeof(levels[0]);
 
     const float groundY = 1000.0f;
@@ -46,6 +49,13 @@ void GdGame::run()
         groundY - 100.0f,
         100.0f,
         100.0f
+    };
+    
+    Rectangle playernao = {
+        500.0f,
+        groundY - 90.0f,    
+        90.0f,  
+        90.0f    
     };
 
     float velocityY = 0.0f;
@@ -123,14 +133,17 @@ void GdGame::run()
 
             if (currentLevel == 0)
             {
-                if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) && onGround)
+                if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || IsKeyPressed(KEY_J) || IsKeyPressed(KEY_G)) && onGround)
                 {
                     velocityY = -25.0f;
                     onGround = false;
                 }
-
+                
                 velocityY += 1.4f;
                 player.y += velocityY;
+                
+                playernao.x = player.x + 5.0f; 
+                playernao.y = player.y + 5.0f;
 
                 if (player.y >= groundY - player.height)
                 {
@@ -141,7 +154,7 @@ void GdGame::run()
 
                 levelOffset += scrollSpeed;
 
-                // SPIKES
+                // SPIKES COLLISION
                 for (int i = 0; i < spikeCount; i++)
                 {
                     Rectangle spikeRect =
@@ -159,23 +172,9 @@ void GdGame::run()
                         onGround = true;
                         levelOffset = 0.0f;
                     }
-
-                    DrawTexturePro(
-                        spike,
-                        {0, 0, (float)spike.width, (float)spike.height},
-                        {
-                            spikeRect.x,
-                            spikeRect.y,
-                            spikeRect.width,
-                            spikeRect.height
-                        },
-                        {0, 0},
-                        0,
-                        WHITE
-                    );
                 }
 
-                // BLOCKS
+                // BLOCKS COLLISION
                 for (int i = 0; i < blockCount; i++)
                 {
                     Rectangle blockRect =
@@ -186,25 +185,126 @@ void GdGame::run()
                         blocks[i].height
                     };
 
-                    DrawRectangleRec(blockRect, GRAY);
-                    DrawRectangleRec(blockRect, Fade(RED, 0.3f));
-
-
-
-                    Rectangle endRec =
+                    if (CheckCollisionRecs(playernao, blockRect))
                     {
-                        endRect.x - levelOffset,
-                        endRect.y,
-                        endRect.width,
-                        endRect.height
+                        // FIXED: Check if falling and if the player's bottom edge is close to the block's top edge
+                        float playerBottom = player.y + player.height;
+                        if (velocityY >= 0.0f && (playerBottom - blockRect.y) <= 20.0f)
+                        {
+                            // Land safely on top
+                            player.y = blockRect.y - player.height;
+                            velocityY = 0.0f;
+                            onGround = true;
+                        }
+                        else
+                        {
+                            // Hit the side or ceiling -> Crash!
+                            player.y = groundY - player.height;
+                            velocityY = 0.0f;
+                            onGround = true;
+                            levelOffset = 0.0f;
+                        }
+                    }
+                }
+
+                Rectangle endRec =
+                {
+                    endRect.x - levelOffset,
+                    endRect.y,
+                    endRect.width,
+                    endRect.height
+                };
+
+                if (CheckCollisionRecs(player, endRec))
+                {
+                    state = GameState::LEVEL_SELECT;
+                }
+            }
+            else if (currentLevel == 1)
+            {
+                if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || IsKeyPressed(KEY_J) || IsKeyPressed(KEY_G)) && onGround)
+                {
+                    velocityY = -25.0f;
+                    onGround = false;
+                }
+
+                velocityY += 1.4f;
+                player.y += velocityY;
+                
+                playernao.x = player.x + 5.0f;
+                playernao.y = player.y + 5.0f;
+
+                if (player.y >= groundY - player.height)
+                {
+                    player.y = groundY - player.height;
+                    velocityY = 0.0f;
+                    onGround = true;
+                }
+
+                levelOffset += scrollSpeed;
+
+                // SPIKES COLLISION
+                for (int i = 0; i < spikeCount; i++)
+                {
+                    Rectangle spikeRect =
+                    {
+                        spikes[i].x - levelOffset,
+                        spikes[i].y,
+                        spikes[i].width,
+                        spikes[i].height
                     };
 
-                    if (CheckCollisionRecs(player, endRec))
+                    if (CheckCollisionRecs(player, spikeRect))
                     {
-                        state = GameState::LEVEL_SELECT;
+                        player.y = groundY - player.height;
+                        velocityY = 0.0f;
+                        onGround = true;
+                        levelOffset = 0.0f;
                     }
-                                
+                }
 
+                // BLOCKS COLLISION
+                for (int i = 0; i < blockCount; i++)
+                {
+                    Rectangle blockRect =
+                    {
+                        blocks[i].x - levelOffset,
+                        blocks[i].y,
+                        blocks[i].width,
+                        blocks[i].height
+                    };
+
+                    if (CheckCollisionRecs(playernao, blockRect)) 
+                    {
+                        // FIXED: Added identical safe landing logic for level 1
+                        float playerBottom = player.y + player.height;
+                        if (velocityY >= 0.0f && (playerBottom - blockRect.y) <= 20.0f)
+                        {
+                            player.y = blockRect.y - player.height;
+                            velocityY = 0.0f;
+                            onGround = true;
+                        }
+                        else
+                        {
+                            player.y = groundY - player.height;
+                            velocityY = 0.0f;
+                            onGround = true;
+                            levelOffset = 0.0f;
+                        }
+                    }
+                }
+
+                Rectangle endRec =
+                {
+                    endRect.x - levelOffset,
+                    endRect.y,
+                    endRect.width,
+                    endRect.height
+                };
+
+                if (CheckCollisionRecs(player, endRec))
+                {
+                    state = GameState::LEVEL_SELECT;
                 }
             }
         }
@@ -290,7 +390,7 @@ void GdGame::run()
                 WHITE
             );
 
-            if (currentLevel == 0)
+            if (currentLevel == 0 || currentLevel == 1) 
             {
                 DrawLineEx(
                     {0, groundY},
@@ -307,11 +407,11 @@ void GdGame::run()
                     0,
                     WHITE
                 );
-
+                
+                // 1. Draw Spikes
                 for (int i = 0; i < spikeCount; i++)
                 {
                     float spikeX = spikes[i].x - levelOffset;
-
                     float drawWidth  = spikes[i].width * 2.0f;
                     float drawHeight = spikes[i].height * 2.0f;
 
@@ -337,6 +437,34 @@ void GdGame::run()
                         YELLOW
                     );
                 }
+
+                // 2. Draw Blocks
+                for (int i = 0; i < blockCount; i++)
+                {
+                    float blockX = blocks[i].x - levelOffset;
+
+                    DrawTexturePro(
+                        block,
+                        {0, 0, (float)block.width, (float)block.height},
+                        {
+                            blockX,
+                            blocks[i].y,
+                            blocks[i].width,
+                            blocks[i].height
+                        },
+                        {0, 0},
+                        0,
+                        WHITE
+                    );
+
+                    DrawRectangleLines(
+                        blockX,
+                        blocks[i].y,
+                        blocks[i].width,
+                        blocks[i].height,
+                        RED
+                    );
+                }
             }
             else
             {
@@ -358,6 +486,8 @@ void GdGame::run()
     UnloadTexture(logo);
     UnloadTexture(backButton);
     UnloadTexture(cube);
+    UnloadTexture(spike);
+    UnloadTexture(block);
 
     CloseWindow();
 }

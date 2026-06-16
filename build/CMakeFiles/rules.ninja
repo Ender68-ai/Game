@@ -101,7 +101,7 @@ rule C_COMPILER__glfw_unscanned_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\aleja\Documents\Tecnologia\Game -BC:\Users\aleja\Documents\Tecnologia\Game\build
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\Learning\Game -BC:\Users\PC\Documents\Learning\Game\build
   description = Re-running CMake...
   generator = 1
 
@@ -110,7 +110,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = "C:\Program Files\CMake\bin\cmake.exe" -P C:\Users\aleja\Documents\Tecnologia\Game\build\CMakeFiles\VerifyGlobs.cmake
+  command = "C:\Program Files\CMake\bin\cmake.exe" -P C:\Users\PC\Documents\Learning\Game\build\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
@@ -119,7 +119,7 @@ rule VERIFY_GLOBS
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\ProgramData\chocolatey\bin\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\PC\scoop\shims\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -127,6 +127,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\ProgramData\chocolatey\bin\ninja.exe -t targets
+  command = C:\Users\PC\scoop\shims\ninja.exe -t targets
   description = All primary targets available:
 
