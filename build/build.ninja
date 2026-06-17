@@ -53,7 +53,7 @@ build CMakeFiles/Game.dir/gd/game.cpp.obj: CXX_COMPILER__Game_unscanned_Release 
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\gd\game.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\gd
@@ -65,7 +65,7 @@ build CMakeFiles/Game.dir/gd/levels/everyend.cpp.obj: CXX_COMPILER__Game_unscann
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\gd\levels\everyend.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\gd\levels
@@ -77,7 +77,7 @@ build CMakeFiles/Game.dir/gd/levels/logic.cpp.obj: CXX_COMPILER__Game_unscanned_
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\gd\levels\logic.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\gd\levels
@@ -89,7 +89,7 @@ build CMakeFiles/Game.dir/pong/game.cpp.obj: CXX_COMPILER__Game_unscanned_Releas
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\pong\game.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\pong
@@ -101,7 +101,7 @@ build CMakeFiles/Game.dir/src/hub.cpp.obj: CXX_COMPILER__Game_unscanned_Release 
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\src\hub.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\src
@@ -113,7 +113,7 @@ build CMakeFiles/Game.dir/src/main.cpp.obj: CXX_COMPILER__Game_unscanned_Release
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\Game.dir\src\main.cpp.obj.d
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src
   OBJECT_DIR = CMakeFiles\Game.dir
   OBJECT_FILE_DIR = CMakeFiles\Game.dir\src
@@ -131,8 +131,8 @@ build CMakeFiles/Game.dir/src/main.cpp.obj: CXX_COMPILER__Game_unscanned_Release
 
 build Game.exe: CXX_EXECUTABLE_LINKER__Game_Release CMakeFiles/Game.dir/gd/game.cpp.obj CMakeFiles/Game.dir/gd/levels/everyend.cpp.obj CMakeFiles/Game.dir/gd/levels/logic.cpp.obj CMakeFiles/Game.dir/pong/game.cpp.obj CMakeFiles/Game.dir/src/hub.cpp.obj CMakeFiles/Game.dir/src/main.cpp.obj | external/raylib/raylib/raylib.lib || external/raylib/raylib/external/glfw/src/glfw external/raylib/raylib/raylib.lib
   CONFIG = Release
-  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
-  LINK_FLAGS = -fuse-ld=lld -Xlinker /subsystem:console -fuse-ld=lld-link
+  FLAGS = -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  LINK_FLAGS = -fuse-ld=lld -flto -Xlinker /subsystem:console -fuse-ld=lld-link
   LINK_LIBRARIES = external/raylib/raylib/raylib.lib  -lopengl32.lib  -lglu32.lib  -lwinmm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\Game.dir
   POST_BUILD = cd .
@@ -346,7 +346,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__rayl
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rcore.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -358,7 +358,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__ra
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rshapes.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -370,7 +370,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__rayl
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rtext.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -382,7 +382,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rtextures.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -394,7 +394,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__ray
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\raudio.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -406,7 +406,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__ra
   CONFIG = Release
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = external\raylib\raylib\CMakeFiles\raylib.dir\rmodels.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=gnu99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src -isystem C:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
@@ -424,7 +424,7 @@ build external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__ra
 
 build external/raylib/raylib/raylib.lib: C_STATIC_LIBRARY_LINKER__raylib_Release external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj || external/raylib/raylib/external/glfw/src/glfw
   CONFIG = Release
-  LANGUAGE_COMPILE_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
+  LANGUAGE_COMPILE_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin
   OBJECT_DIR = external\raylib\raylib\CMakeFiles\raylib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -636,7 +636,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -648,7 +648,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -660,7 +660,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: 
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -672,7 +672,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -684,7 +684,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.ob
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -696,7 +696,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj:
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -708,7 +708,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj:
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -720,7 +720,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -732,7 +732,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_contex
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -744,7 +744,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -756,7 +756,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -768,7 +768,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -780,7 +780,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -792,7 +792,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -804,7 +804,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -816,7 +816,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -828,7 +828,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -840,7 +840,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystic
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -852,7 +852,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -864,7 +864,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
@@ -876,7 +876,7 @@ build external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c
   CONFIG = Release
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
-  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -std=c99 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -flto=thin -Wall
   INCLUDES = -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/include -IC:/Users/PC/Documents/Learning/Game/external/raylib/src/external/glfw/src -IC:/Users/PC/Documents/Learning/Game/build/external/raylib/raylib/external/glfw/src
   OBJECT_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir

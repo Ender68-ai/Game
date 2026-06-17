@@ -43,7 +43,7 @@ CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Program Files/LLVM/bin/clang-scan
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/Program Files/LLVM/bin/llvm-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto
+CMAKE_CXX_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
@@ -52,7 +52,7 @@ CMAKE_CXX_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
@@ -73,7 +73,7 @@ CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Program Files/LLVM/bin/clang-scan-d
 CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Program Files/LLVM/bin/llvm-ranlib.exe
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto
+CMAKE_C_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
@@ -82,7 +82,7 @@ CMAKE_C_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
 CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
@@ -103,7 +103,7 @@ CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during RELEASE builds.
-CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld -flto
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
@@ -206,9 +206,6 @@ CMAKE_OBJCOPY:FILEPATH=C:/Program Files/LLVM/bin/llvm-objcopy.exe
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=C:/Program Files/LLVM/bin/llvm-objdump.exe
 
-//No help, variable specified on the command line.
-CMAKE_POLICY_DEFAULT_CMP0069:UNINITIALIZED=OFF
-
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
 
@@ -277,7 +274,7 @@ CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during the creation of shared libraries
 // during RELEASE builds.
-CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld -flto
 
 //Flags used by the linker during the creation of shared libraries
 // during RELWITHDEBINFO builds.

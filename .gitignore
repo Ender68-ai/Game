@@ -1,0 +1,4 @@
+# Ignore generated build artifacts
+build/
+release.zip
+release/
