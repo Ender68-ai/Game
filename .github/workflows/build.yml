@@ -1,0 +1,30 @@
+name: Build and publish nightly prerelease
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run build script
+        shell: powershell
+        run: .\build.bat
+
+      - name: Create or update nightly prerelease
+        uses: ncipollo/release-action@v1
+        with:
+          tag: nightly
+          name: Nightly build
+          body: |-
+            Nightly prerelease from commit ${{ github.sha }}.
+          prerelease: true
+          files: release.zip
+          overwrite: true
+          draft: false
