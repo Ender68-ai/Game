@@ -12,6 +12,18 @@ rem =========================
 set "CFLAGS=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
 set "CXXFLAGS=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
 
+echo Ensuring raylib is available...
+if not exist external\raylib\CMakeLists.txt (
+    echo raylib missing or incomplete, cloning fresh copy...
+    if exist external\raylib rd /s /q external\raylib
+    git clone --depth 1 https://github.com/raysan5/raylib.git external\raylib
+    if %ERRORLEVEL% NEQ 0 (
+        echo Failed to clone raylib. Exiting...
+        pause
+        exit /b %ERRORLEVEL%
+    )
+)
+
 echo Configuring...
 
 cmake -S . -B build -G Ninja ^
