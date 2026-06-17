@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
@@ -25,6 +28,5 @@ jobs:
           body: |-
             Nightly prerelease from commit ${{ github.sha }}.
           prerelease: true
-          files: release.zip
-          overwrite: true
           draft: false
+          artifacts: release.zip
