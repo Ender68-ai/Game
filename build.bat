@@ -1,18 +1,12 @@
 @echo off
 setlocal EnableExtensions
 
-rem Clean previous build + CMake cache
 if exist build rd /s /q build
 if exist release rd /s /q release
 if exist release.zip del /q release.zip
-
-rem =========================
-rem MAXIMUM RUNTIME FLAGS (Clang)
-rem =========================
 set "CFLAGS=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
 set "CXXFLAGS=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
 
-echo Ensuring raylib is available...
 if not exist external\raylib\CMakeLists.txt (
     echo raylib missing or incomplete, cloning fresh copy...
     if exist external\raylib rd /s /q external\raylib
@@ -54,10 +48,8 @@ if %ERRORLEVEL% NEQ 0 (
 
 echo Packaging Release...
 
-rem 1. Create the target structure: release/game/
 mkdir release\game
 
-rem 2. Copy the binary into release/game/
 if exist build\game.exe (
     copy build\game.exe release\game\ >nul
 ) else (
@@ -68,7 +60,7 @@ if exist build\game.exe (
 
 rem 3. Copy the assets folder into the root of the game installation directory (release/game/assets/)
 if exist assets (
-    xcopy /E /I /Y assets release\game\assets >nul
+    xcopy /E /I /Y assets release\assets >nul
 ) else (
     echo Warning: Local assets folder not found to copy!
 )
