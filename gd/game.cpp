@@ -3,6 +3,12 @@
 #include "levels/logic.hpp"
 #include "levels/everyend.hpp"
 
+extern Spike spikes_everyend[];
+extern block blocks_everyend[];
+extern EndRect endRect_everyend;
+extern const int spikeCount_everyend;
+extern const int blockCount_everyend;
+
 // Remember to fix the damn blocks - Fixed top landing!
 
 enum class GameState
@@ -21,7 +27,7 @@ struct Level
 void GdGame::run()
 {
     InitWindow(1920, 1080, "Geometry Dash");
-    SetTargetFPS(60);
+    SetTargetFPS(1039);
 
     Texture2D background = LoadTexture("../assets/bg3.png");
     Texture2D playButton = LoadTexture("../assets/playbutton.png");
@@ -62,7 +68,7 @@ void GdGame::run()
     bool onGround = true;
 
     float levelOffset = 0.0f;
-    const float scrollSpeed = 12.0f;
+    const float scrollSpeed = 1.0f;
 
     while (!WindowShouldClose())
     {
@@ -135,11 +141,11 @@ void GdGame::run()
             {
                 if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || IsKeyPressed(KEY_J) || IsKeyPressed(KEY_G)) && onGround)
                 {
-                    velocityY = -25.0f;
+                    velocityY = -3000.0f;
                     onGround = false;
                 }
                 
-                velocityY += 1.4f;
+                velocityY += 1.0f;
                 player.y += velocityY;
                 
                 playernao.x = player.x + 5.0f; 
@@ -224,11 +230,11 @@ void GdGame::run()
             {
                 if ((IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || IsKeyPressed(KEY_J) || IsKeyPressed(KEY_G)) && onGround)
                 {
-                    velocityY = -25.0f;
+                    velocityY = -3000.0f;
                     onGround = false;
                 }
 
-                velocityY += 1.4f;
+                velocityY += 1.0f;
                 player.y += velocityY;
                 
                 playernao.x = player.x + 5.0f;
@@ -244,14 +250,14 @@ void GdGame::run()
                 levelOffset += scrollSpeed;
 
                 // SPIKES COLLISION
-                for (int i = 0; i < spikeCount; i++)
+                for (int i = 0; i < spikeCount_everyend; i++)
                 {
                     Rectangle spikeRect =
                     {
-                        spikes[i].x - levelOffset,
-                        spikes[i].y,
-                        spikes[i].width,
-                        spikes[i].height
+                        spikes_everyend[i].x - levelOffset,
+                        spikes_everyend[i].y,
+                        spikes_everyend[i].width,
+                        spikes_everyend[i].height
                     };
 
                     if (CheckCollisionRecs(player, spikeRect))
@@ -264,14 +270,14 @@ void GdGame::run()
                 }
 
                 // BLOCKS COLLISION
-                for (int i = 0; i < blockCount; i++)
+                for (int i = 0; i < blockCount_everyend; i++)
                 {
                     Rectangle blockRect =
                     {
-                        blocks[i].x - levelOffset,
-                        blocks[i].y,
-                        blocks[i].width,
-                        blocks[i].height
+                        blocks_everyend[i].x - levelOffset,
+                        blocks_everyend[i].y,
+                        blocks_everyend[i].width,
+                        blocks_everyend[i].height
                     };
 
                     if (CheckCollisionRecs(playernao, blockRect)) 
@@ -296,10 +302,10 @@ void GdGame::run()
 
                 Rectangle endRec =
                 {
-                    endRect.x - levelOffset,
-                    endRect.y,
-                    endRect.width,
-                    endRect.height
+                    endRect_everyend.x - levelOffset,
+                    endRect_everyend.y,
+                    endRect_everyend.width,
+                    endRect_everyend.height
                 };
 
                 if (CheckCollisionRecs(player, endRec))

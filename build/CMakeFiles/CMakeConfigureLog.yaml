@@ -29,6 +29,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -63,6 +65,24 @@ events:
       - "C:/Users/PC/Flutter/flutter/bin/"
       - "C:/Users/PC/AppData/Roaming/npm/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/ninja-build.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/ninja-build.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/ninja-build"
@@ -232,6 +252,8 @@ events:
     found: "C:/Users/PC/scoop/shims/ninja.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -293,6 +315,8 @@ events:
     names:
       - "clang++"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -327,6 +351,12 @@ events:
       - "C:/Users/PC/Flutter/flutter/bin/"
       - "C:/Users/PC/AppData/Roaming/npm/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang++.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang++.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang++"
@@ -358,6 +388,8 @@ events:
     found: "C:/Program Files/LLVM/bin/clang++.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -426,6 +458,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -512,6 +546,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -602,6 +638,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -689,6 +727,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -776,6 +816,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -862,6 +904,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -952,6 +996,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1057,6 +1103,8 @@ events:
       - "ar"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1094,6 +1142,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1157,6 +1207,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1194,6 +1246,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1257,6 +1311,8 @@ events:
       - "strip"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1294,6 +1350,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-strip.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1357,6 +1415,8 @@ events:
       - "ld"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1394,6 +1454,8 @@ events:
     found: "C:/Program Files/LLVM/bin/lld-link.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1457,6 +1519,8 @@ events:
       - "nm"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1494,6 +1558,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-nm.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1557,6 +1623,8 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1594,6 +1662,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-objdump.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1657,6 +1727,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1694,6 +1766,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1757,6 +1831,8 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1793,6 +1869,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-readelf.com"
       - "C:/Program Files/LLVM/bin/llvm-readelf.exe"
       - "C:/Program Files/LLVM/bin/llvm-readelf"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-readelf.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-readelf.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-readelf"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-readelf.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-readelf.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-readelf"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-readelf.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-readelf.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-readelf"
@@ -1892,6 +1974,12 @@ events:
       - "C:/Program Files/LLVM/bin/readelf.com"
       - "C:/Program Files/LLVM/bin/readelf.exe"
       - "C:/Program Files/LLVM/bin/readelf"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/readelf.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/readelf.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/readelf"
@@ -1991,6 +2079,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2054,6 +2144,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2091,6 +2183,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-dlltool.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2154,6 +2248,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2190,6 +2286,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-addr2line.com"
       - "C:/Program Files/LLVM/bin/llvm-addr2line.exe"
       - "C:/Program Files/LLVM/bin/llvm-addr2line"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-addr2line.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-addr2line.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-addr2line"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-addr2line.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-addr2line.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-addr2line"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-addr2line.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-addr2line.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-addr2line"
@@ -2289,6 +2391,12 @@ events:
       - "C:/Program Files/LLVM/bin/addr2line.com"
       - "C:/Program Files/LLVM/bin/addr2line.exe"
       - "C:/Program Files/LLVM/bin/addr2line"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/addr2line.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/addr2line.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/addr2line"
@@ -2388,6 +2496,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2450,6 +2560,8 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2486,6 +2598,12 @@ events:
       - "C:/Program Files/LLVM/bin/tapi.com"
       - "C:/Program Files/LLVM/bin/tapi.exe"
       - "C:/Program Files/LLVM/bin/tapi"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/tapi.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/tapi.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/tapi"
@@ -2585,6 +2703,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2650,6 +2770,8 @@ events:
       - "llvm-ar"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2686,6 +2808,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1.com"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1"
@@ -2785,6 +2913,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar-22.com"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22"
@@ -2884,6 +3018,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar22.com"
       - "C:/Program Files/LLVM/bin/llvm-ar22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22"
@@ -2984,6 +3124,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3049,6 +3191,8 @@ events:
       - "llvm-ranlib"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -3085,6 +3229,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1"
@@ -3184,6 +3334,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22"
@@ -3283,6 +3439,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib22.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22"
@@ -3383,6 +3545,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3448,6 +3612,8 @@ events:
       - "clang-scan-deps"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -3484,6 +3650,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1"
@@ -3583,6 +3755,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22"
@@ -3682,6 +3860,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps22.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps22.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22"
@@ -3782,6 +3966,8 @@ events:
     found: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3844,6 +4030,8 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -3890,6 +4078,12 @@ events:
       - "C:/Program Files (x86)/Game/sbin/"
       - "C:/Program Files (x86)/Game/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/rc.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/rc.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/rc"
@@ -4028,6 +4222,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4096,6 +4292,8 @@ events:
     names:
       - "llvm-rc"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -4142,6 +4340,12 @@ events:
       - "C:/Program Files (x86)/Game/sbin/"
       - "C:/Program Files (x86)/Game/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc"
@@ -4173,6 +4377,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4244,6 +4450,8 @@ events:
     names:
       - "llvm-rc"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -4290,6 +4498,12 @@ events:
       - "C:/Program Files (x86)/Game/sbin/"
       - "C:/Program Files (x86)/Game/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-rc"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-rc"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-rc"
@@ -4321,6 +4535,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4377,8 +4593,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-g4stgy"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-g4stgy"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-l8i7x7"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-l8i7x7"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
@@ -4390,16 +4606,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-g4stgy'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-l8i7x7'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_3a69b
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3a69b.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_3a69b.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_3a69b.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3a69b.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3a69b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3a69b.lib -Xlinker /pdb:cmTC_3a69b.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_68d7f
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_68d7f.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_68d7f.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_68d7f.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_68d7f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_68d7f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_68d7f.lib -Xlinker /pdb:cmTC_68d7f.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_3a69b.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_3a69b.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_3a69b.lib /pdb:cmTC_3a69b.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_68d7f.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_68d7f.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_68d7f.lib /pdb:cmTC_68d7f.pdb /version:0.0
         
       exitCode: 0
   -
@@ -4463,8 +4679,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-cp158v"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-cp158v"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-f98vlm"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-f98vlm"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
@@ -4475,11 +4691,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-cp158v'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-f98vlm'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_ab116
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_ab116.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_ab116.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_ab116.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-cp158v/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_ab116.dir/feature_tests.cxx.obj -o cmTC_ab116.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ab116.lib -Xlinker /pdb:cmTC_ab116.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_87a3e
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_87a3e.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_87a3e.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_87a3e.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-f98vlm/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_87a3e.dir/feature_tests.cxx.obj -o cmTC_87a3e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_87a3e.lib -Xlinker /pdb:cmTC_87a3e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -4494,8 +4710,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-b0hnvi"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-b0hnvi"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-440a91"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-440a91"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: "-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing"
@@ -4506,11 +4722,11 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-b0hnvi'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-440a91'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_02771
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_02771.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_02771.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_02771.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-b0hnvi/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_02771.dir/feature_tests.cxx.obj -o cmTC_02771.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_02771.lib -Xlinker /pdb:cmTC_02771.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_6902d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_6902d.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_6902d.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_6902d.dir/feature_tests.cxx.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-440a91/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_6902d.dir/feature_tests.cxx.obj -o cmTC_6902d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6902d.lib -Xlinker /pdb:cmTC_6902d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -4533,6 +4749,8 @@ events:
     names:
       - "clang"
     candidate_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -4579,6 +4797,12 @@ events:
       - "C:/Program Files (x86)/Game/sbin/"
       - "C:/Program Files (x86)/Game/"
     searched_directories:
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang"
@@ -4610,6 +4834,8 @@ events:
     found: "C:/Program Files/LLVM/bin/clang.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4684,6 +4910,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4776,6 +5004,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4872,6 +5102,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -4964,6 +5196,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5056,6 +5290,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5148,6 +5384,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5244,6 +5482,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5357,6 +5597,8 @@ events:
       - "llvm-ar"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -5405,6 +5647,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1.com"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.1"
@@ -5540,6 +5788,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar-22.com"
       - "C:/Program Files/LLVM/bin/llvm-ar-22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar-22"
@@ -5675,6 +5929,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ar22.com"
       - "C:/Program Files/LLVM/bin/llvm-ar22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ar22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ar22"
@@ -5811,6 +6071,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5882,6 +6144,8 @@ events:
       - "llvm-ranlib"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -5930,6 +6194,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.1"
@@ -6065,6 +6335,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib-22"
@@ -6200,6 +6476,12 @@ events:
       - "C:/Program Files/LLVM/bin/llvm-ranlib22.com"
       - "C:/Program Files/LLVM/bin/llvm-ranlib22.exe"
       - "C:/Program Files/LLVM/bin/llvm-ranlib22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/llvm-ranlib22"
@@ -6336,6 +6618,8 @@ events:
     found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -6407,6 +6691,8 @@ events:
       - "clang-scan-deps"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -6455,6 +6741,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.1"
@@ -6590,6 +6882,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps-22"
@@ -6725,6 +7023,12 @@ events:
       - "C:/Program Files/LLVM/bin/clang-scan-deps22.com"
       - "C:/Program Files/LLVM/bin/clang-scan-deps22.exe"
       - "C:/Program Files/LLVM/bin/clang-scan-deps22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22.com"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22.exe"
+      - "C:/Users/PC/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22.com"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22.exe"
       - "C:/Program Files/Eclipse Adoptium/jdk-25.0.3.9-hotspot/bin/clang-scan-deps22"
@@ -6861,6 +7165,8 @@ events:
     found: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\PC\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -6917,8 +7223,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1n51ym"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1n51ym"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wllysg"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wllysg"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -6929,16 +7235,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1n51ym'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-wllysg'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_e20b8
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e20b8.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_e20b8.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e20b8.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_e20b8.dir/CMakeCCompilerABI.c.obj -o cmTC_e20b8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e20b8.lib -Xlinker /pdb:cmTC_e20b8.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_685b9
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_685b9.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_685b9.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_685b9.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_685b9.dir/CMakeCCompilerABI.c.obj -o cmTC_685b9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_685b9.lib -Xlinker /pdb:cmTC_685b9.pdb -Xlinker /version:0.0     && cd ."
         clang version 22.1.4 (https://github.com/llvm/llvm-project 35990504507d79e0b9deb809c8ee5e1b34ceef20)
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_e20b8.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_e20b8.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_e20b8.lib /pdb:cmTC_e20b8.pdb /version:0.0
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_685b9.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\x86_64-pc-windows-msvc" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\22\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_685b9.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_685b9.lib /pdb:cmTC_685b9.pdb /version:0.0
         
       exitCode: 0
   -
@@ -7002,8 +7308,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-8jguho"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-8jguho"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-81uwed"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-81uwed"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7015,11 +7321,11 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-8jguho'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-81uwed'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_5f093
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_5f093.dir/src.c.obj -MF CMakeFiles\\cmTC_5f093.dir\\src.c.obj.d -o CMakeFiles/cmTC_5f093.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-8jguho/src.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_5f093.dir/src.c.obj -o cmTC_5f093.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5f093.lib -Xlinker /pdb:cmTC_5f093.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_bb164
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES -D_MBCS  -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_bb164.dir/src.c.obj -MF CMakeFiles\\cmTC_bb164.dir\\src.c.obj.d -o CMakeFiles/cmTC_bb164.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-81uwed/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_bb164.dir/src.c.obj -o cmTC_bb164.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bb164.lib -Xlinker /pdb:cmTC_bb164.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -7033,8 +7339,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7046,13 +7352,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_d1d01
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d1d01.dir/src.c.obj -MF CMakeFiles\\cmTC_d1d01.dir\\src.c.obj.d -o CMakeFiles/cmTC_d1d01.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3/src.c
-        FAILED: [code=1] CMakeFiles/cmTC_d1d01.dir/src.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d1d01.dir/src.c.obj -MF CMakeFiles\\cmTC_d1d01.dir\\src.c.obj.d -o CMakeFiles/cmTC_d1d01.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3/src.c
-        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-1iqlg3/src.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_f4998
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f4998.dir/src.c.obj -MF CMakeFiles\\cmTC_f4998.dir\\src.c.obj.d -o CMakeFiles/cmTC_f4998.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_f4998.dir/src.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f4998.dir/src.c.obj -MF CMakeFiles\\cmTC_f4998.dir\\src.c.obj.d -o CMakeFiles/cmTC_f4998.dir/src.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es/src.c
+        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-aya7es/src.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7069,8 +7375,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-9488si"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-9488si"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-e8ehfm"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-e8ehfm"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7082,13 +7388,13 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-9488si'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-e8ehfm'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_1edc7
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_1edc7.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_1edc7.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_1edc7.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-9488si/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1edc7.dir/CheckFunctionExists.c.obj -o cmTC_1edc7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1edc7.lib -Xlinker /pdb:cmTC_1edc7.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_1edc7.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_1edc7.dir/CheckFunctionExists.c.obj -o cmTC_1edc7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1edc7.lib -Xlinker /pdb:cmTC_1edc7.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_09f91
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_09f91.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_09f91.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_09f91.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-e8ehfm/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_09f91.dir/CheckFunctionExists.c.obj -o cmTC_09f91.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_09f91.lib -Xlinker /pdb:cmTC_09f91.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_09f91.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_09f91.dir/CheckFunctionExists.c.obj -o cmTC_09f91.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_09f91.lib -Xlinker /pdb:cmTC_09f91.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthreads.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -7104,8 +7410,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovf03e"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovf03e"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-mfeb97"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-mfeb97"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7117,13 +7423,13 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovf03e'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-mfeb97'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_3f28e
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3f28e.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_3f28e.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_3f28e.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-ovf03e/CheckFunctionExists.c
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3f28e.dir/CheckFunctionExists.c.obj -o cmTC_3f28e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3f28e.lib -Xlinker /pdb:cmTC_3f28e.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        FAILED: [code=1] cmTC_3f28e.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_3f28e.dir/CheckFunctionExists.c.obj -o cmTC_3f28e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3f28e.lib -Xlinker /pdb:cmTC_3f28e.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_7cc6c
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7cc6c.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_7cc6c.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_7cc6c.dir/CheckFunctionExists.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-mfeb97/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_7cc6c.dir/CheckFunctionExists.c.obj -o cmTC_7cc6c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7cc6c.lib -Xlinker /pdb:cmTC_7cc6c.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: [code=1] cmTC_7cc6c.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_7cc6c.dir/CheckFunctionExists.c.obj -o cmTC_7cc6c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7cc6c.lib -Xlinker /pdb:cmTC_7cc6c.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         lld-link: error: could not open 'pthread.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -7138,8 +7444,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt"
-      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt"
+      source: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb"
+      binary: "C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
@@ -7151,13 +7457,13 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt'
+        Change Dir: 'C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb'
         
-        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_3d0bb
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3d0bb.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_3d0bb.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_3d0bb.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt/CheckForPthreads.c
-        FAILED: [code=1] CMakeFiles/cmTC_3d0bb.dir/CheckForPthreads.c.obj 
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3d0bb.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_3d0bb.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_3d0bb.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt/CheckForPthreads.c
-        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-jrs5zt/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): C:/Users/PC/scoop/shims/ninja.exe -v cmTC_bb8d9
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bb8d9.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_bb8d9.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_bb8d9.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb/CheckForPthreads.c
+        FAILED: [code=1] CMakeFiles/cmTC_bb8d9.dir/CheckForPthreads.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -D_MBCS  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith -O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing  -O0 -g -Xclang -gcodeview -std=gnu99 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bb8d9.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_bb8d9.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_bb8d9.dir/CheckForPthreads.c.obj -c C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb/CheckForPthreads.c
+        C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/CMakeScratch/TryCompile-strdtb/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
