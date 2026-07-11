@@ -24,26 +24,25 @@ BUILD_SHARED_LIBS:BOOL=OFF
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Program Files/LLVM/bin/llvm-ar.exe
+CMAKE_AR:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-ar.exe
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/Program Files/LLVM/bin/clang++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/clang++.exe
 
 //LLVM archiver
-CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Program Files/LLVM/bin/llvm-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/llvm-ar.exe
 
 //`clang-scan-deps` dependency scanner
-CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Program Files/LLVM/bin/clang-scan-deps.exe
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/clang-scan-deps.exe
 
 //Generate index for LLVM archive
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/Program Files/LLVM/bin/llvm-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/llvm-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
@@ -52,7 +51,7 @@ CMAKE_CXX_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
@@ -60,20 +59,20 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/Program Files/LLVM/bin/clang.exe
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/clang.exe
 
 //LLVM archiver
-CMAKE_C_COMPILER_AR:FILEPATH=C:/Program Files/LLVM/bin/llvm-ar.exe
+CMAKE_C_COMPILER_AR:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/llvm-ar.exe
 
 //`clang-scan-deps` dependency scanner
-CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Program Files/LLVM/bin/clang-scan-deps.exe
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/clang-scan-deps.exe
 
 //Generate index for LLVM archive
-CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Program Files/LLVM/bin/llvm-ranlib.exe
+CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Users/PC/scoop/apps/llvm/22.1.6/bin/llvm-ranlib.exe
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
+CMAKE_C_FLAGS:STRING=
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
@@ -82,7 +81,7 @@ CMAKE_C_FLAGS_DEBUG:STRING=-O0 -g -Xclang -gcodeview
 CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=-O3 -ffast-math -DNDEBUG -march=native -mtune=native -flto -fno-math-errno -fno-trapping-math -ffp-contract=fast -fstrict-aliasing
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
@@ -91,7 +90,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -DNDEBUG -g -Xclang -gcodeview
 CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=C:/Program Files/LLVM/bin/llvm-dlltool.exe
+CMAKE_DLLTOOL:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -103,7 +102,7 @@ CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during RELEASE builds.
-CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld -flto
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
@@ -111,8 +110,8 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of build database during the build.
 CMAKE_EXPORT_BUILD_DATABASE:BOOL=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/PC/Documents/Learning/Game/build/CMakeFiles/pkgRedirects
@@ -168,11 +167,8 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 //Read-only single-machine data (etc)
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
-//No help, variable specified on the command line.
-CMAKE_INTERPROCEDURAL_OPTIMIZATION:UNINITIALIZED=ON
-
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files/LLVM/bin/lld-link.exe
+CMAKE_LINKER:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/lld-link.exe
 
 //Program used to build from build.ninja files.
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/PC/scoop/shims/ninja.exe
@@ -198,13 +194,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=C:/Program Files/LLVM/bin/llvm-nm.exe
+CMAKE_NM:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-nm.exe
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=C:/Program Files/LLVM/bin/llvm-objcopy.exe
+CMAKE_OBJCOPY:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-objcopy.exe
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=C:/Program Files/LLVM/bin/llvm-objdump.exe
+CMAKE_OBJDUMP:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-objdump.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -237,10 +233,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=C:/Program Files/LLVM/bin/llvm-ranlib.exe
+CMAKE_RANLIB:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-ranlib.exe
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=C:/Program Files/LLVM/bin/llvm-rc.exe
+CMAKE_RC_COMPILER:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-rc.exe
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=
@@ -274,7 +270,7 @@ CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during the creation of shared libraries
 // during RELEASE builds.
-CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=-fuse-ld=lld -flto
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during the creation of shared libraries
 // during RELWITHDEBINFO builds.
@@ -308,7 +304,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=C:/Program Files/LLVM/bin/llvm-strip.exe
+CMAKE_STRIP:FILEPATH=C:/Users/PC/scoop/apps/llvm/current/bin/llvm-strip.exe
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -487,8 +483,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_BUILD_DATABASE
 CMAKE_EXPORT_BUILD_DATABASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.

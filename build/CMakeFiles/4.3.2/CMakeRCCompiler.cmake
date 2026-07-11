@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "C:/Program Files/LLVM/bin/llvm-rc.exe")
+set(CMAKE_RC_COMPILER "C:/Users/PC/scoop/apps/llvm/current/bin/llvm-rc.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)
